@@ -1,0 +1,121 @@
+*{
+    /* reset.css */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* box-sizing = визначає поведінку розрахунків блокової моделі */
+    /* border-box = властивість яка розраховує ширину та висоту елементу включаючи область контенту падінг та бордер  */
+
+    /* content-box = властивість яка розраховує ширину та висоту елементу включаючи тільки область контенту */
+
+    /* box-sizing  за замовчуванням стоїть значення content-box, 
+    АБСОЛЮТНО ЗАВЖДИ ТРЕБА ВСТАНОВЛЮВАТЬ ЗНАЧЕННЯ border-box
+    */
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1140px ;
+    /* 0 = відступ зверху та знизу, auto = це відступ зліва та справа */
+    margin: 0 auto;
+    /* 0 = відступ зверху та знизу, 15px = це відступ зліва та справа  */
+    padding: 0 15px;
+}
+
+
+.header{
+    /* display flex - cтавить в рядок усі дитячі елементи */
+    display: flex;
+    background-color:  #012D63;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.header-contacts{
+    display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.block{
+width: 200px;
+height: 200px;
+
+background-color: tomato;
+
+
+
+
+
+}
+
+.block-model{
+    /* margin = зовнішній відступ за допомогою нього відштовхуемось від інших елементів */
+    /* margin завжди прозорий */
+
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px; */
+
+    /* загальна властивість записує значення за годинниковою стрілкою */
+    margin: 20px 40px 20px 30px;
+
+
+    /* padding = внутрішній відступ */
+    /* padding не прозорий */
+    /* padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom:40px ;
+    padding-left: 20px; */
+
+    padding: 30px 50px 40px 20px;
+
+
+/* 30px - верхній , 40 px - правий та лівий, 50px - нижній */
+    padding: 30px 40px 50px;
+    /* Верхній та нижній відступ по 30px, лівий та правий 50px */
+   
+    padding: 30px 50px;
+    /* на всі чотири напрями 50 px */
+    padding: 50px;
+
+
+/* ширина кордону */
+border-width: 10px;
+/* Стиль кордону(В горошок, подвійна, пунктирна) */
+border-style:double;
+/* Колір кордону */
+border-color: green;
+/* solid = суцільна лінія */
+    border: 10px solid green;
+/* Картинка заднього фону */
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg);
+    /* картинка не повторюється якщо є додаткове місце */
+    background-repeat: no-repeat;
+    /* розмір картинки */
+    background-size: cover;
+    /* місце знаходження картинки */
+    background-position: center;
+}
+
+
+
+
+
+/* Селектор- це символ(. # [] + > ) який вказує на те яким чином ми бажаєм обрать html елемент */
+/* . = коли ми бажаєм обрать класс */ʼ
+/* # = id */
+/* [] = Селектор за атрибутом */
+/* +  = селектор сусіда */
+/*  > = дитячий селектор */

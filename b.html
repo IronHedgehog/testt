@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- BEM -->
+
+    <header class="header">
+      <div class="container">
+        <a class="header-link--green" href="">
+          <img src="./imgs/header/logo.webp" alt="" />
+        </a>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <!-- li = елемент(item) списку(list) -->
+            <!-- Якщо ми хочемо щоб лішки стали в рядок ми маємо батьківському елементу(ul) дати display flex -->
+            <li class="list-item">
+              <a class="list-link" href="">Main page</a>
+            </li>
+            <li class="list-item"><a class="list-link" href="">Benefits</a></li>
+            <li class="list-item">
+              <a class="list-link" href="">Advantages</a>
+            </li>
+            <li class="list-item"><a class="list-link" href="">Reviews</a></li>
+            <li class="list-item"><a class="list-link" href="">Contacts</a></li>
+            <li class="list-item"><a class="list-link" href="">Order</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contacts">
+          <li class="contacts-item"><a href="" class="contacts-link">Ua</a></li>
+          <li class="contacts-item">
+            <a href="" class="contacts-link">Eng</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- <div class="block"></div>
+    <div class="block block-model"></div>
+    <div class="block"></div> -->
+  </body>
+</html>
